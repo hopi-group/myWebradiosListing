@@ -1,0 +1,9 @@
+<p>List of webradio</p>
+<div *ngFor="let webradio of webradios">
+<h3>
+    <a [title]="webradio.name + ' details'">
+      {{ webradio.name }}
+    </a>
+  </h3>
+  <audio href="http://listen.radionomy.com/alfunkwebradio" controls=""></audio>
+</div>
